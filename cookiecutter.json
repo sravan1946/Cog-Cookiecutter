@@ -1,7 +1,7 @@
 {
     "package_name": null,
     "cog_class_name": null,
-    "config_identifier": 234252341,
+    "config_identifier": null,
     "short": "A short description of the cog.",
     "description": "A long description of the cog.",
     "install_msg": "TY for installing this cog!",
