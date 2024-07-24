@@ -1,11 +1,11 @@
 {
     "package_name": null,
     "cog_class_name": null,
-    "config_identifier": null,
+    "config_identifier": 234252341,
     "short": "A short description of the cog.",
     "description": "A long description of the cog.",
-    "install_msg": "",
+    "install_msg": "TY for installing this cog!",
     "end_user_data_statement": "This cog does not persistently store any data or metadata about users.",
-    "authors": "Author 1; Author 2",
-    "tags": "tag1 tag2 tag3"
+    "authors": "sravan",
+    "tags": "tag1"
 }

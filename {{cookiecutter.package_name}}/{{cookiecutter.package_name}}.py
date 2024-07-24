@@ -21,6 +21,17 @@ class {{ cookiecutter.cog_class_name }}(commands.Cog):
             force_registration=True,
         )
 
+    __author__ = ["{{ cookiecutter.author }}"]
+    __version__ = "1.0.0"
+
+    def format_help_for_context(self, ctx: commands.Context) -> str:
+        """
+        Thanks Sinbad!
+        """
+        pre_processed = super().format_help_for_context(ctx)
+        return f"{pre_processed}\n\nAuthors: {', '.join(self.__author__)}\nCog Version: {self.__version__}"
+
+
     async def red_delete_data_for_user(self, *, requester: RequestType, user_id: int) -> None:
         # TODO: Replace this with the proper end user data removal handling.
         super().red_delete_data_for_user(requester=requester, user_id=user_id)
