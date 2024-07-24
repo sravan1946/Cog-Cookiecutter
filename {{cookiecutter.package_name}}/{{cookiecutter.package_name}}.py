@@ -21,7 +21,7 @@ class {{ cookiecutter.cog_class_name }}(commands.Cog):
             force_registration=True,
         )
 
-    __author__ = ["{{ cookiecutter.author }}"]
+    __author__ = ["{{ cookiecutter.authors | join('", "') }}"]
     __version__ = "1.0.0"
 
     def format_help_for_context(self, ctx: commands.Context) -> str:
