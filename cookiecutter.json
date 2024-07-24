@@ -6,6 +6,6 @@
     "description": "A long description of the cog.",
     "install_msg": "TY for installing this cog!",
     "end_user_data_statement": "This cog does not persistently store any data or metadata about users.",
-    "authors": ["sravan"],
+    "authors": "sravan",
     "tags": "tag1"
 }
